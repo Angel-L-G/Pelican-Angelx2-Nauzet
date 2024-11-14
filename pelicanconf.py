@@ -1,8 +1,8 @@
 AUTHOR = 'Angel_Luis-Nauzet-Angel_Perez'
 SITENAME = 'Canary'
-SITEURL = ""
+SITEURL = ''
 
-PATH = "content"
+PATH = 'content'
 
 TIMEZONE = 'Europe/Madrid'
 
@@ -17,16 +17,17 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (
-    ("Pelican", "https://getpelican.com/"),
-    ("Python.org", "https://www.python.org/"),
-    ("Jinja2", "https://palletsprojects.com/p/jinja/"),
-    ("You can modify those links in your config file", "#"),
+    ('Angel Luis', 'https://github.com/Angel-L-G'),
+    ('Nauzet', 'https://github.com/NauzetPM'),
+    ('Angel Perez', 'https://github.com/Angel170605'),
+    ('Pelican', 'https://getpelican.com/'),
+    ('Python.org', 'https://www.python.org/'),
 )
 
 # Social widget
 SOCIAL = (
-    ("You can add links in your config file", "#"),
-    ("Another social link", "#"),
+    ('Youtube', 'https://www.youtube.com/@ibb007'),
+    ('reddit', 'https://www.reddit.com/r/django/?rdt=45319'),
 )
 
 DEFAULT_PAGINATION = 8
