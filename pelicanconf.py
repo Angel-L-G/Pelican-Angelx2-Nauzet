@@ -30,7 +30,9 @@ LINKS = (
 # Social widget
 SOCIAL = (('Youtube', 'https://www.youtube.com/@ibb007'),)
 
-DEFAULT_PAGINATION = 8
+DEFAULT_PAGINATION = False  # Desactivar la paginación si es necesario
+
+DEFAULT_URL = 'pagina_de_inicio.html'
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
