@@ -1,0 +1,45 @@
+<div class="sidebar">
+	<div class="container">
+		<div class="sidebar-about">
+			<h1>
+				<a href="/">
+					{{ SITENAME }}
+				</a>
+			</h1>
+			<p class="lead"></p>
+			<p class="lead">{{ BIO }} </p>
+			<p></p>
+		</div>
+		{% if MENUITEMS or DISPLAY_PAGES_ON_MENU %}
+			<ul class="sidebar-nav">
+			{% if MENUITEMS %}
+				{% for title, url in MENUITEMS %}
+					<li><a href="{{ url }}">{{ title }}</a></li>
+				{% endfor %}
+			{% endif %}
+			{% if DISPLAY_PAGES_ON_MENU %}
+				{% for p in pages %}
+					<li><a href="{{ SITEURL }}/pagina-de-inicio">{{ p.title }}</a></li>
+				{% endfor %}
+			{% endif %}
+			</ul>
+		{% endif %}
+		<nav class="sidebar-social">
+			<ul class="sidebar-nav">
+			{% for name, link in SOCIAL %}
+					<li><a class="sidebar-social-item" href="{{ link }}" target="_blank">
+						{{name}}
+					</a></li>
+			{% endfor %}
+			{% for name, link in LINKS %}
+				<li><a class="sidebar-social-item" href="{{ link }}" target="_blank">
+					{{name}}
+				</a></li>
+		{% endfor %}
+	</ul>
+		</nav>
+		{% if FOOTER_TEXT %}
+			<p class="sidebar-footer">{{ FOOTER_TEXT }}</p>
+		{% endif %}
+	</div>
+</div>

@@ -8,7 +8,7 @@ TIMEZONE = 'Europe/Madrid'
 
 DEFAULT_LANG = 'es'
 
-THEME = 'themes/pelican-semantic-ui'
+THEME = 'themes/hide'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -30,7 +30,7 @@ LINKS = (
 # Social widget
 SOCIAL = (('Youtube', 'https://www.youtube.com/@ibb007'),)
 
-DEFAULT_PAGINATION = 8
+DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
