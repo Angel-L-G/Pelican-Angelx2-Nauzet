@@ -8,7 +8,7 @@ TIMEZONE = 'Europe/Madrid'
 
 DEFAULT_LANG = 'es'
 
-THEME = 'themes/sneakyidea'
+THEME = 'themes/pelican-semantic-ui'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -33,4 +33,16 @@ SOCIAL = (('Youtube', 'https://www.youtube.com/@ibb007'),)
 DEFAULT_PAGINATION = 8
 
 # Uncomment following line if you want document-relative URLs when developing
-# RELATIVE_URLS = True
+RELATIVE_URLS = True
+MENU_LINKS = [
+    ('Principal', 'welcome-to-canary.html'),
+    ('Productos y Servicios', 'productos-y-servicios.html'),
+    ('Reseñas', 'testimonios-de-clientes.html'),
+    ('Contact', 'contacto.html'),
+]
+
+MENUITEMS = [
+    ('Productos y Servicios', 'productos-y-servicios.html'),
+    ('Reseñas', 'testimonios-de-clientes.html'),
+    ('Contact', 'contacto.html'),
+]
