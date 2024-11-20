@@ -22,8 +22,18 @@
 					<li><a href="{{ SITEURL }}/pagina-de-inicio">{{ p.title }}</a></li>
 				{% endfor %}
 			{% endif %}
+			<li>PROYECTOS</li>
+			<ul class="sidebar-nav">
+				{% for name, link in PROYECTOS %}
+				<li>- <a href="{{ link }}" target="_blank">
+					{{name}}
+				</a></li>
+		{% endfor %}
+			</ul>
+
 			</ul>
 		{% endif %}
+
 		<nav class="sidebar-social">
 			<ul class="sidebar-nav">
 			{% for name, link in SOCIAL %}

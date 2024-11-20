@@ -19,8 +19,8 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (
-    ('Angel Luis', 'https://github.com/Angel-L-G'),
     ('Nauzet', 'https://getpelican.com/'),
+    ('Angel Luis', 'https://github.com/Angel-L-G'),
     ('Angel Perez', 'https://github.com/NauzetPM'),
     ('Python.org', 'https://www.python.org/'),
     ('Pelican', 'https://getpelican.com/'),
@@ -39,6 +39,14 @@ MENU_LINKS = [
     ('Productos y Servicios', 'productos-y-servicios.html'),
     ('Reseñas', 'testimonios-de-clientes.html'),
     ('Contact', 'contacto.html'),
+]
+PROYECTOS = [
+    ('Mejoras Recientes', 'mejoras-recientes-en-nuestros-productos.html'),
+    ('Innovaciones en Educación', 'innovaciones-en-educacion-con-canary.html'),
+    (
+        'Herramientas Educativas',
+        'impacto-de-nuestras-herramientas-educativas-en-el-aprendizaje.html',
+    ),
 ]
 
 MENUITEMS = [
